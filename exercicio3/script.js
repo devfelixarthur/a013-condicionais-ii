@@ -1,3 +1,6 @@
+const nome = prompt('Qual o seu nome?')
+const idade = +prompt('Qual a sua idade?')
+
 //código a ser reescrito
 
 if(nome === "José"){
@@ -11,3 +14,6 @@ if(idade >= 18){
 } else {
 	console.log("Ainda não pode tirar carteira de motorista");
 }
+
+console.log(nome==='José'? 'Oi, Zé!': 'Olá, ' + nome)
+console.log(idade>=18 ? 'Pode tirar carteira de motorista!': 'Ainda não pode tirar carteira de motorista')
